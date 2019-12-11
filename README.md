@@ -24,6 +24,9 @@ Add the okta react sdk to the project [Okta Authentication Quickstart Guides](ht
 
 ### `npm i @okta/okta-react`
 
+Add the okta sign in widget
+
+### `npm i @okta/okta-signin-widget`
 
 ----------
 
