@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/okta_yarde_staff_portal/static/css/main.d1b05096.chunk.css",
+    "main.js": "/okta_yarde_staff_portal/static/js/main.3b52bf33.chunk.js",
+    "main.js.map": "/okta_yarde_staff_portal/static/js/main.3b52bf33.chunk.js.map",
+    "runtime-main.js": "/okta_yarde_staff_portal/static/js/runtime-main.8395ca28.js",
+    "runtime-main.js.map": "/okta_yarde_staff_portal/static/js/runtime-main.8395ca28.js.map",
+    "static/js/2.8517d0b1.chunk.js": "/okta_yarde_staff_portal/static/js/2.8517d0b1.chunk.js",
+    "static/js/2.8517d0b1.chunk.js.map": "/okta_yarde_staff_portal/static/js/2.8517d0b1.chunk.js.map",
+    "index.html": "/okta_yarde_staff_portal/index.html",
+    "precache-manifest.1accd8250d31799503fd1b4e66b4bba5.js": "/okta_yarde_staff_portal/precache-manifest.1accd8250d31799503fd1b4e66b4bba5.js",
+    "service-worker.js": "/okta_yarde_staff_portal/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/okta_yarde_staff_portal/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.8517d0b1.chunk.js.LICENSE": "/okta_yarde_staff_portal/static/js/2.8517d0b1.chunk.js.LICENSE",
+    "static/media/logo.svg": "/okta_yarde_staff_portal/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8395ca28.js",
+    "static/js/2.8517d0b1.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.3b52bf33.chunk.js"
+  ]
+}
