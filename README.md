@@ -1,9 +1,15 @@
-This project is a mashup of tecniques to learn React
+# This project is a mashup of tecniques to learn React.
 Starting with [React Authentication App With Okta](https://www.youtube.com/watch?v=5j4FXMQBzmg)
+
 Create directory to hold project and cd into it
-- npx create-react-app .
+
+### `npx create-react-app .`
+
 Setup gh-pages starting about 14 min in [GitHub Pages Deploy & Domain](https://www.youtube.com/watch?v=SKXkC4SqtRk)
-- npm i gh-pages
+
+### `npm i gh-pages`
+
+----------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
