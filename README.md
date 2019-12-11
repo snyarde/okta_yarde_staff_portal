@@ -9,6 +9,13 @@ Setup gh-pages starting about 14 min in [GitHub Pages Deploy & Domain](https://w
 
 ### `npm i gh-pages`
 
+Edit package.json with homepage and build directive then build and deploy:
+
+### `npm run build`
+### `npm run deploy`
+
+The URL is in settings under [GitHub Pages](https://snyarde.github.io/okta_yarde_staff_portal/) 
+
 ----------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
