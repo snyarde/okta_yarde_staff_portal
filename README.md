@@ -20,6 +20,11 @@ Install the router. Also a quick tutorial on it here: [Learn React Router in 5 M
 
 ### `npm i react-router-dom`
 
+Add the okta react sdk to the project [Okta Authentication Quickstart Guides](https://developer.okta.com/quickstart/#/react/nodejs/express)
+
+### `npm i @okta/okta-react`
+
+
 ----------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
