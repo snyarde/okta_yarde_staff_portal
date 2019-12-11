@@ -14,7 +14,11 @@ Edit package.json with homepage and build directive then build and deploy:
 ### `npm run build`
 ### `npm run deploy`
 
-The URL is in settings under [GitHub Pages](https://snyarde.github.io/okta_yarde_staff_portal/) 
+The URL is in settings under [GitHub Pages](https://snyarde.github.io/okta_yarde_staff_portal/). Optionally connect a domain.
+
+Install the router. Also a quick tutorial on it here: [Learn React Router in 5 Minutes - A Beginner's Tutorial](https://www.freecodecamp.org/news/react-router-in-5-minutes/)
+
+### `npm i react-router-dom`
 
 ----------
 
