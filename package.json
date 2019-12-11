@@ -11,11 +11,13 @@
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0"
   },
+  "homepage": "https://snyarde.github.io/okta_yarde_staff_portal",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
