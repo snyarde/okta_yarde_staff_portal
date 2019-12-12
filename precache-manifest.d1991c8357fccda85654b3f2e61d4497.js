@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f4522fa0f986d614a0bc98644094965b",
+    "revision": "8a207162dfd9ebb27ce5416c0251cc93",
     "url": "/okta_yarde_staff_portal/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/okta_yarde_staff_portal/static/css/2.4efd05dd.chunk.css"
   },
   {
-    "revision": "7bd17fce0eb58e940fa0",
+    "revision": "d0462ade6ba4c17ebe9a",
     "url": "/okta_yarde_staff_portal/static/css/main.27fd15f6.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/okta_yarde_staff_portal/static/js/2.18e3890b.chunk.js.LICENSE"
   },
   {
-    "revision": "7bd17fce0eb58e940fa0",
-    "url": "/okta_yarde_staff_portal/static/js/main.8165b2a0.chunk.js"
+    "revision": "d0462ade6ba4c17ebe9a",
+    "url": "/okta_yarde_staff_portal/static/js/main.2073de12.chunk.js"
   },
   {
     "revision": "a6726bca068765f1251b",

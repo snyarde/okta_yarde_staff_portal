@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/okta_yarde_staff_portal/precache-manifest.71199d13ae76d79780ab366bde4a139b.js"
+  "/okta_yarde_staff_portal/precache-manifest.d1991c8357fccda85654b3f2e61d4497.js"
 );
 
 self.addEventListener('message', (event) => {
