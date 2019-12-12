@@ -28,6 +28,10 @@ Add the okta sign in widget
 
 ### `npm i @okta/okta-signin-widget`
 
+There are a few different tutorials in Okta. The Okta React YouTube video is based on this [Okta Sign-In Widget](https://developer.okta.com/code/react/okta_react_sign-in_widget/)
+
+Also the tutorial above might need to be updated for this bug fix [Okta Widget CSS errors](https://devforum.okta.com/t/okta-widget-css-errors/5827)
+
 ----------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
