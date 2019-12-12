@@ -34,6 +34,8 @@ Also the tutorial above might need to be updated for this bug fix [Okta Widget C
 
 The code in the video is also a bit out of date. They've updated the example code to use a more secure flow. I've commented out the lines to keep the original flow. However I should read this post and improve this [Implement the OAuth 2.0 Authorization Code with PKCE Flow](https://developer.okta.com/blog/2019/08/22/okta-authjs-pkce)
 
+Finally, GitHub Pages has some limitations in terms of serving up SPAs. I was able to fix part of the issue with having the correct base URL show but not correct the second issue with the Okta redirect URI not being found. Tried to follow the instructions here but it only created an infinite loop of 404s being redirected to itself. [So you want to host your Single Page React App on GitHub Pages?](https://itnext.io/so-you-want-to-host-your-single-age-react-app-on-github-pages-a826ab01e48)
+
 ----------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
