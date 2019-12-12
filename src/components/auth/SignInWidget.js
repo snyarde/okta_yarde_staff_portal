@@ -9,9 +9,10 @@ class SignInWidget extends Component {
     const el = ReactDOM.findDOMNode(this);
     this.widget = new OktaSignIn({
       baseUrl: this.props.baseUrl,
-      authParams: {
-        pkce: true
-      }
+      logo: 'yarde-metals-logo.png',
+    //   authParams: {
+    //     pkce: true
+    //   }
     });
     this.widget.renderEl({el}, this.props.onSuccess, this.props.onError);
   }

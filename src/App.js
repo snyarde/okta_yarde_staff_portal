@@ -14,7 +14,7 @@ const config = {
   redirectUri: window.location.origin + '/implicit/callback',
   clientId: '0oa26kok566LysAAm357',
   onAuthRequired: onAuthRequired,
-  pkce: true
+  // pkce: true
 }
 
 function onAuthRequired({history}) {

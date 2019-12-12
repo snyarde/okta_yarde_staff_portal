@@ -32,6 +32,8 @@ There are a few different tutorials in Okta. The Okta React YouTube video is bas
 
 Also the tutorial above might need to be updated for this bug fix [Okta Widget CSS errors](https://devforum.okta.com/t/okta-widget-css-errors/5827)
 
+The code in the video is also a bit out of date. They've updated the example code to use a more secure flow. I've commented out the lines to keep the original flow. However I should read this post and improve this [Implement the OAuth 2.0 Authorization Code with PKCE Flow](https://developer.okta.com/blog/2019/08/22/okta-authjs-pkce)
+
 ----------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
