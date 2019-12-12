@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8a207162dfd9ebb27ce5416c0251cc93",
+    "revision": "da32602b81075201083768f02b383214",
     "url": "/okta_yarde_staff_portal/index.html"
   },
   {
