@@ -36,6 +36,14 @@ The code in the video is also a bit out of date. They've updated the example cod
 
 Finally, GitHub Pages has some limitations in terms of serving up SPAs. I was able to fix part of the issue with having the correct base URL show but not correct the second issue with the Okta redirect URI not being found. Tried to follow the instructions here but it only created an infinite loop of 404s being redirected to itself. [So you want to host your Single Page React App on GitHub Pages?](https://itnext.io/so-you-want-to-host-your-single-age-react-app-on-github-pages-a826ab01e48)
 
+I've been trying to get a custom domain to work on GitHub Pages. There are two things that are frustrating.
+
+- When I run 'npm run deploy' my custom domain in the GitHub Pages settings gets wiped out
+
+- I'm still trying to get Okta to work with this domain as well and I can't figure out what the settings need to be in the Okta app settings and the redirect URI to use
+
+It's hard to debug this because changing these settings breaks my localhost dev system to Okta. Which means to test GitHub Pages, I have to change the settings in App.js for this 'target'. I need to use some type of ENV to detect if I'm deploying versus running locally. And I don't really know what I'm doing so it feels a lot like flipping bits and seeing what happens. It seems like using the custom domain also created a regression becuase prior to that I was at least seeing the SPA try to hit the redirect URL which created a 404 error. Now I get a "There was an unexpected internal error. Please try again." message on the login page. So it's not even getting past that step it appears.
+
 ----------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -21,6 +21,8 @@ const config = {
   // redirectUri: process.env.PUBLIC_URL + '/implicit/callback',
   // redirectUri: 'https://snyarde.github.io/okta_yarde_staff_portal/implicit/callback', // seems like it gets to the redirect URL
   // clientId: '0oa26yany9zLArphj357', // https://snyarde.github.io/okta_yarde_staff_portal/
+  // redirectUri: window.location.origin + '/implicit/callback', // seems like it gets to the redirect URL when using custom domain
+  // redirectUri: 'https://okta.mcwho.xyz/implicit/callback', // seems like it gets to the redirect URL when using custom domain
   onAuthRequired: onAuthRequired,
   // pkce: true
 }
