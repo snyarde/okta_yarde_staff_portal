@@ -7,6 +7,7 @@ import Home from "./components/pages/Home";
 import Staff from "./components/pages/Staff";
 import Login from "./components/auth/Login";
 import Table from "./components/pages/Table";
+import Api from "./components/pages/Api";
 
 import "./App.css";
 
@@ -40,10 +41,10 @@ function App() {
           <div className="container">
             <Route path="/" exact={true} component={Home} />
             <Route path="/table" exact={true} component={Table} />
+            <Route path="/Api" exact={true} component={Api} />
             <SecureRoute path="/staff" exact={true} component={Staff} />
             <Route path='/login' render={() => <Login baseUrl='https://dev-999896.okta.com' />} />
             <Route path='/implicit/callback' component={ImplicitCallback} />
-            {/* <Route path='/implicit/callback' component={Table} /> */}
           </div>
         </div>
       </Security>

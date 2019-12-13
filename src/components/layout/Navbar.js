@@ -34,6 +34,11 @@ class Navbar extends Component {
                   Table
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/api">
+                  Api
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

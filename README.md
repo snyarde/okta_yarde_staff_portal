@@ -45,6 +45,11 @@ I've been trying to get a custom domain to work on GitHub Pages. There are two t
 It's hard to debug this because changing these settings breaks my localhost dev system to Okta. Which means to test GitHub Pages, I have to change the settings in App.js for this 'target'. I need to use some type of ENV to detect if I'm deploying versus running locally. And I don't really know what I'm doing so it feels a lot like flipping bits and seeing what happens. It seems like using the custom domain also created a regression becuase prior to that I was at least seeing the SPA try to hit the redirect URL which created a 404 error. Now I get a "There was an unexpected internal error. Please try again." message on the login page. So it's not even getting past that step it appears.
 
 ----------
+API Related Notes
+
+Creating quick page to test fetching data from an API and displaying: [React js Tutorial - How To Get Data From An API With React](https://www.youtube.com/watch?v=hzLDsxPGctY)
+
+----------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
